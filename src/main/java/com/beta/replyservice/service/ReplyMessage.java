@@ -1,8 +1,10 @@
-package com.beta.replyservice;
+package com.beta.replyservice.service;
+
 
 public class ReplyMessage {
 
 	private final String message;
+
 
 	public ReplyMessage(String message) {
 		this.message = message;
@@ -11,4 +13,5 @@ public class ReplyMessage {
 	public String getMessage() {
 		return message;
 	}
+
 }
